@@ -1,0 +1,38 @@
+@import "header.css";
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image:url("Images/index-bg.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  
+}
+.menu
+{
+	margin-left:50px;
+}
+.item
+{
+	height:90px;
+	width: 180px;
+	background-color:rgba(0,0,56,0.4);
+	border: solid black;
+}
+.menu a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.item p
+{	
+	padding-top: 20px;
+	text-align: center;
+}
+.item:hover
+{
+	border: solid #808080;
+	background-color: #000000;
+	color: red;
+}
